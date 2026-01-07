@@ -1,8 +1,8 @@
 # STILS-HCC (肿瘤浸润淋巴细胞空间评分-肝癌)
 
-**Spatial Immune Landscape Analysis / 肿瘤浸润淋巴细胞空间评分**
+**Spatial Tumor Infiltrating Lymphocytes Score / 肿瘤浸润淋巴细胞空间评分**
 
-This repository contains the codebase for analyzing spatial immune landscapes in Hepatocellular Carcinoma (HCC), including feature extraction from cell segmentation results, feature normalization, and survival analysis using machine learning.
+This repository contains the codebase for analyzing spatial Tumor Infiltrating Lymphocytes in Hepatocellular Carcinoma (HCC), including feature extraction from cell segmentation results, feature normalization, and survival analysis using machine learning.
 
 ## Overview
 
