@@ -1,12 +1,12 @@
-# STILS-HCC (肿瘤浸润淋巴细胞空间评分-肝癌)
+# DASI-HCC 
 
-**Spatial Tumor Infiltrating Lymphocytes Score / 肿瘤浸润淋巴细胞空间评分**
+**cell Density, spatial Aggregation, and Spatial Interaction (DASI)**
 
-This repository contains the codebase for analyzing spatial Tumor Infiltrating Lymphocytes in Hepatocellular Carcinoma (HCC), including feature extraction from cell segmentation results, feature normalization, and survival analysis using machine learning.
+This repository contains the codebase for analyzing spatial Tumor Microenvironment partten in Hepatocellular Carcinoma (HCC), including feature extraction from cell segmentation results, feature normalization, and survival analysis using machine learning.
 
 ## Overview
 
-The STILS-HCC pipeline consists of three main modules:
+The DASI-HCC pipeline consists of three main modules:
 1.  **Spatial Feature Extraction**: Extracts complex biological spatial statistics from cell detection results (HoverNet JSON format).
 2.  **Feature Normalization**: Normalizes spatial features based on cell density to ensure comparability across ROI/patches.
 3.  **Survival Analysis**: A robust machine learning pipeline involving Bootstrap Feature Selection and Random Survival Forests (RSF) to predict patient prognosis.
